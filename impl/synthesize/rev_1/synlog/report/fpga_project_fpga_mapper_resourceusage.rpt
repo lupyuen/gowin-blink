@@ -1,0 +1,26 @@
+---------------------------------------
+Resource Usage Report for demo 
+
+Mapping to part: gw1n_4lqfp144-6
+Cell usage:
+ALU             25 uses
+DFFC            28 uses
+DFFCE           1 use
+DFFP            1 use
+GSR             1 use
+INV             2 uses
+LUT2            13 uses
+LUT3            1 use
+LUT4            7 uses
+
+I/O ports: 6
+I/O primitives: 6
+IBUF           2 uses
+OBUF           4 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   30 of 3456 (0%)
+
+@S |Mapping Summary:
+Total  LUTs: 21 (0%)
+

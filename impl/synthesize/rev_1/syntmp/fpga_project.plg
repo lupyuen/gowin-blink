@@ -1,0 +1,22 @@
+@P:  Worst Slack : 1.537
+@P:  demo|clk_50M - Estimated Frequency : 118.2 MHz
+@P:  demo|clk_50M - Requested Frequency : 100.0 MHz
+@P:  demo|clk_50M - Estimated Period : 8.463
+@P:  demo|clk_50M - Requested Period : 10.000
+@P:  demo|clk_50M - Slack : 1.537
+@P:  demo|clk_led_derived_clock - Estimated Frequency : 1314.9 MHz
+@P:  demo|clk_led_derived_clock - Requested Frequency : 100.0 MHz
+@P:  demo|clk_led_derived_clock - Estimated Period : 0.760
+@P:  demo|clk_led_derived_clock - Requested Period : 10.000
+@P:  demo|clk_led_derived_clock - Slack : 18.479
+@P:  System - Estimated Frequency : 866.6 MHz
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : 1.154
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : 8.846
+@P: demo Part : gw1n_4lqfp144-6
+@P: demo I/O primitives : 6
+@P: demo I/O Register bits : 0
+@P: demo Register bits (Non I/O) : 30 (0%)
+@P: demo Total Luts : 21 of 800 (0%)
+@P:  CPU Time : 0h:00m:03s

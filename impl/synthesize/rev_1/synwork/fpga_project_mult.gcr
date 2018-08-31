@@ -1,0 +1,14 @@
+i clk_50M
+m 0 0
+u 2 26
+p {p:clk_50M}{t:cnt[24:0].C}
+e ckid0_0 {t:cnt[24:0].C} dffr
+c ckid0_0 {p:clk_50M} Unconstrained_port Inferred clock from port
+i clk_led_i
+m 0 0
+u 1 4
+n ckid0_1 {t:led[3:0].C} Derived clock on input (not legal for GCC)
+p {t:clk_led.Q[0]}{t:clk_led_derived_clock.I[0]}{t:clk_led_derived_clock.OUT[0]}{t:led[3:0].C}
+e ckid0_1 {t:led[3:0].C} dffpatr
+d ckid0_2 {t:clk_led.Q[0]} dffre Potential generated clock but with a nonconvertable driver or an unknown conversion method
+l 0 0 0 0 0
