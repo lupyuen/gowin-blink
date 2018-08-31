@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE GOWIN_POWER_ANALYSIS_CONFIG>
+<Config>
+    <Version>1.0</Version>
+    <TempGrade>COMMERCIAL</TempGrade>
+    <Process>TYPICAL</Process>
+    <AmbientTemp>25</AmbientTemp>
+    <VCC>1.2</VCC>
+    <VCCX>3.3</VCCX>
+    <HeatSink>None</HeatSink>
+    <AirFlow>0</AirFlow>
+    <DefaultConfig>
+        <DefaultIoToggleRate>12.50</DefaultIoToggleRate>
+        <DefaultRmToggleRate>12.50</DefaultRmToggleRate>
+        <UseVeclessEst>FALSE</UseVeclessEst>
+    </DefaultConfig>
+    <GlobalEnable value="100"/>
+    <PortOutEnable>
+        <Port name="led[0]" capacity="5" type="0"/>
+        <Port name="led[3]" capacity="5" type="0"/>
+        <Port name="led[2]" capacity="5" type="0"/>
+        <Port name="led[1]" capacity="5" type="0"/>
+    </PortOutEnable>
+    <GlobalBsram clock_enable="100" read_probability="100" write_probability="100"/>
+</Config>
