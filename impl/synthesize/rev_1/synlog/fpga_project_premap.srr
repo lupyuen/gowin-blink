@@ -1,4 +1,4 @@
-# Mon Sep  3 22:46:03 2018
+# Mon Sep  3 23:03:16 2018
 
 
 Copyright (C) 1994-2018 Synopsys, Inc.
@@ -42,7 +42,7 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 @N: MF578 |Incompatible asynchronous control logic preventing generated clock conversion.
 syn_allowed_resources : blockrams=10  set on top level netlist demo
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 187MB peak: 190MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 187MB peak: 190MB)
 
 
 
@@ -118,6 +118,6 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 103MB peak: 190MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Sep  3 22:46:04 2018
+# Mon Sep  3 23:03:18 2018
 
 ###########################################################]

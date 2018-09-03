@@ -1,4 +1,4 @@
-# Mon Sep  3 22:46:05 2018
+# Mon Sep  3 23:03:18 2018
 
 
 Copyright (C) 1994-2018 Synopsys, Inc.
@@ -81,7 +81,7 @@ Finished technology timing optimizations and critical path resynthesis (Real Tim
 Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 190MB)
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 117MB peak: 190MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 190MB)
 
 Writing Analyst data base C:\Gowin\gowin-blink\impl\synthesize\rev_1\synwork\fpga_project_m.srm
 
@@ -105,7 +105,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Mon Sep  3 22:46:08 2018
+# Timing Report written on Mon Sep  3 23:03:22 2018
 #
 
 
@@ -432,6 +432,6 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 37MB peak: 190MB)
 
 Process took 0h:00m:03s realtime, 0h:00m:03s cputime
-# Mon Sep  3 22:46:08 2018
+# Mon Sep  3 23:03:22 2018
 
 ###########################################################]

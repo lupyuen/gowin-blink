@@ -1,11 +1,9 @@
-<html><body><samp><pre>
-<!@TC:1535986994>
 #Build: Synplify Pro (R) N-2018.03G-Beta6, Build 118R, May 15 2018
 #install: C:\Gowin\1.8\SynplifyPro
 #OS: Windows 8 6.2
 #Hostname: BEACONDEV3
 
-# Mon Sep  3 23:03:14 2018
+# Mon Sep  3 22:46:00 2018
 
 #Implementation: rev_1
 
@@ -23,9 +21,9 @@ OS: Windows 6.2
 Hostname: BEACONDEV3
 
 Implementation : rev_1
-<a name=compilerReport1></a>Synopsys HDL Compiler, Version comp2018q1p1, Build 118R, Built May 15 2018 09:18:11</a>
+Synopsys HDL Compiler, Version comp2018q1p1, Build 118R, Built May 15 2018 09:18:11
 
-@N: : <!@TM:1535986994> | Running in 64-bit mode 
+@N|Running in 64-bit mode
 
 Copyright (C) 1994-2018 Synopsys, Inc.
 This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
@@ -40,11 +38,11 @@ OS: Windows 6.2
 Hostname: BEACONDEV3
 
 Implementation : rev_1
-<a name=compilerReport2></a>Synopsys Verilog Compiler, Version comp2018q1p1, Build 118R, Built May 15 2018 09:18:11</a>
+Synopsys Verilog Compiler, Version comp2018q1p1, Build 118R, Built May 15 2018 09:18:11
 
-@N: : <!@TM:1535986994> | Running in 64-bit mode 
-@N: : <!@TM:1535986994> | : Running Verilog Compiler in System Verilog mode 
-@N: : <!@TM:1535986994> | : Running Verilog Compiler in Multiple File Compilation Unit mode 
+@N|Running in 64-bit mode
+@N:: Running Verilog Compiler in System Verilog mode
+@N:: Running Verilog Compiler in Multiple File Compilation Unit mode
 @I::"C:\Gowin\1.8\SynplifyPro\lib\generic\gw1n.v" (library work)
 @I::"C:\Gowin\1.8\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
 @I::"C:\Gowin\1.8\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
@@ -52,16 +50,15 @@ Implementation : rev_1
 @I::"C:\Gowin\1.8\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
 @I::"C:\Gowin\gowin-blink\src\demo.v" (library work)
 Verilog syntax check successful!
-File C:\Gowin\gowin-blink\src\demo.v changed - recompiling
 Selecting top level module demo
-@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Gowin\gowin-blink\src\demo.v:4:7:4:11:@N:CG364:@XP_MSG">demo.v(4)</a><!@TM:1535986994> | Synthesizing module demo in library work.
+@N: CG364 :"C:\Gowin\gowin-blink\src\demo.v":4:7:4:10|Synthesizing module demo in library work.
 
 At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Sep  3 23:03:14 2018
+# Mon Sep  3 22:46:01 2018
 
 ###########################################################]
 
@@ -78,19 +75,18 @@ OS: Windows 6.2
 Hostname: BEACONDEV3
 
 Implementation : rev_1
-<a name=compilerReport3></a>Synopsys Synopsys Netlist Linker, Version comp2018q1p1, Build 118R, Built May 15 2018 09:18:11</a>
+Synopsys Synopsys Netlist Linker, Version comp2018q1p1, Build 118R, Built May 15 2018 09:18:11
 
-@N: : <!@TM:1535986994> | Running in 64-bit mode 
-File C:\Gowin\gowin-blink\impl\synthesize\rev_1\synwork\layer0.srs changed - recompiling
-@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="C:\Gowin\gowin-blink\src\demo.v:4:7:4:11:@N:NF107:@XP_MSG">demo.v(4)</a><!@TM:1535986994> | Selected library: work cell: demo view verilog as top level
-@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="C:\Gowin\gowin-blink\src\demo.v:4:7:4:11:@N:NF107:@XP_MSG">demo.v(4)</a><!@TM:1535986994> | Selected library: work cell: demo view verilog as top level
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Gowin\gowin-blink\src\demo.v":4:7:4:10|Selected library: work cell: demo view verilog as top level
+@N: NF107 :"C:\Gowin\gowin-blink\src\demo.v":4:7:4:10|Selected library: work cell: demo view verilog as top level
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Sep  3 23:03:14 2018
+# Mon Sep  3 22:46:01 2018
 
 ###########################################################]
 @END
@@ -100,13 +96,9 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Sep  3 23:03:14 2018
+# Mon Sep  3 22:46:01 2018
 
 ###########################################################]
-
-</pre></samp></body></html>
-<html><body><samp><pre>
-<!@TC:1535986994>
 
 Copyright (C) 1994-2018 Synopsys, Inc.
 This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
@@ -121,26 +113,23 @@ OS: Windows 6.2
 Hostname: BEACONDEV3
 
 Database state : C:\Gowin\gowin-blink\impl\synthesize\rev_1\synwork\|rev_1
-<a name=compilerReport4></a>Synopsys Synopsys Netlist Linker, Version comp2018q1p1, Build 118R, Built May 15 2018 09:18:11</a>
+Synopsys Synopsys Netlist Linker, Version comp2018q1p1, Build 118R, Built May 15 2018 09:18:11
 
-@N: : <!@TM:1535986996> | Running in 64-bit mode 
-File C:\Gowin\gowin-blink\impl\synthesize\rev_1\synwork\fpga_project_comp.srs changed - recompiling
-@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="C:\Gowin\gowin-blink\src\demo.v:4:7:4:11:@N:NF107:@XP_MSG">demo.v(4)</a><!@TM:1535986996> | Selected library: work cell: demo view verilog as top level
-@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="C:\Gowin\gowin-blink\src\demo.v:4:7:4:11:@N:NF107:@XP_MSG">demo.v(4)</a><!@TM:1535986996> | Selected library: work cell: demo view verilog as top level
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Gowin\gowin-blink\src\demo.v":4:7:4:10|Selected library: work cell: demo view verilog as top level
+@N: NF107 :"C:\Gowin\gowin-blink\src\demo.v":4:7:4:10|Selected library: work cell: demo view verilog as top level
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Sep  3 23:03:16 2018
+# Mon Sep  3 22:46:02 2018
 
 ###########################################################]
+Premap Report
 
-</pre></samp></body></html>
-<html><body><samp><pre>
-<!@TC:1535986994>
-# Mon Sep  3 23:03:16 2018
+# Mon Sep  3 22:46:03 2018
 
 
 Copyright (C) 1994-2018 Synopsys, Inc.
@@ -156,17 +145,17 @@ OS: Windows 6.2
 Hostname: BEACONDEV3
 
 Implementation : rev_1
-<a name=mapperReport5></a>Synopsys Generic Technology Pre-mapping, Version mapgw, Build 1086R, Built May 17 2018 10:22:59</a>
+Synopsys Generic Technology Pre-mapping, Version mapgw, Build 1086R, Built May 17 2018 10:22:59
 
 
 Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
 
-@A:<a href="@A:MF827:@XP_HELP">MF827</a> : <!@TM:1535986998> | No constraint file specified. 
-Linked File:  <a href="C:\Gowin\gowin-blink\impl\synthesize\rev_1\fpga_project_scck.rpt:@XP_FILE">fpga_project_scck.rpt</a>
+@A: MF827 |No constraint file specified.
+@L: C:\Gowin\gowin-blink\impl\synthesize\rev_1\fpga_project_scck.rpt 
 Printing clock  summary report in "C:\Gowin\gowin-blink\impl\synthesize\rev_1\fpga_project_scck.rpt" file 
-@N:<a href="@N:MF916:@XP_HELP">MF916</a> : <!@TM:1535986998> | Option synthesis_strategy=base is enabled.  
-@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1535986998> | Running in 64-bit mode. 
-@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1535986998> | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
 
 Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
 
@@ -179,16 +168,16 @@ Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00
 
 Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
 
-@N:<a href="@N:MH105:@XP_HELP">MH105</a> : <!@TM:1535986998> | UMR3 is only supported for HAPS-80. 
-@N:<a href="@N:MH105:@XP_HELP">MH105</a> : <!@TM:1535986998> | UMR3 is only supported for HAPS-80. 
-@N:<a href="@N:MF578:@XP_HELP">MF578</a> : <!@TM:1535986998> | Incompatible asynchronous control logic preventing generated clock conversion. 
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MF578 |Incompatible asynchronous control logic preventing generated clock conversion.
 syn_allowed_resources : blockrams=10  set on top level netlist demo
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 187MB peak: 190MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 187MB peak: 190MB)
 
 
 
-<a name=mapperReport6></a>Clock Summary</a>
+Clock Summary
 ******************
 
           Start                            Requested     Requested     Clock                           Clock                     Clock
@@ -210,7 +199,7 @@ demo|clk_50M                   26        clk_50M(port)           clk_led.C      
 demo|clk_led_derived_clock     4         clk_led.Q[0](dffre)     led[3:0].C      -                 -            
 ================================================================================================================
 
-<font color=#A52A2A>@W:<a href="@W:MT529:@XP_HELP">MT529</a> : <a href="c:\gowin\gowin-blink\src\demo.v:18:0:18:6:@W:MT529:@XP_MSG">demo.v(18)</a><!@TM:1535986998> | Found inferred clock demo|clk_50M which controls 26 sequential elements including cnt[24:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </font>
+@W: MT529 :"c:\gowin\gowin-blink\src\demo.v":18:0:18:5|Found inferred clock demo|clk_50M which controls 26 sequential elements including cnt[24:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
 
 ICG Latch Removal Summary:
 Number of ICG latches removed: 0
@@ -221,7 +210,7 @@ Number of ICG latches not removed:	0
 
 
 
-<a name=clockReport7></a>#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[</a>
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
 
 1 non-gated/non-generated clock tree(s) driving 26 clock pin(s) of sequential element(s)
 1 gated/generated clock tree(s) driving 4 clock pin(s) of sequential element(s)
@@ -230,20 +219,20 @@ Number of ICG latches not removed:	0
 =========================== Non-Gated/Non-Generated Clocks ============================
 Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
 ---------------------------------------------------------------------------------------
-<a href="@|L:C:\Gowin\gowin-blink\impl\synthesize\rev_1\synwork\fpga_project_prem.srm@|S:clk_50M@|E:cnt[24:0]@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0 @XP_NAMES_BY_PROP">ClockId_0_0</a>       clk_50M             Unconstrained_port     26         cnt[24:0]      
+@KP:ckid0_0       clk_50M             Unconstrained_port     26         cnt[24:0]      
 =======================================================================================
 ============================================================= Gated/Generated Clocks =============================================================
 Clock Tree ID     Driving Element     Drive Element Type     Unconverted Fanout     Sample Instance     Explanation                               
 --------------------------------------------------------------------------------------------------------------------------------------------------
-<a href="@|L:C:\Gowin\gowin-blink\impl\synthesize\rev_1\synwork\fpga_project_prem.srm@|S:clk_led.Q[0]@|E:led[3:0]@|F:@syn_dgcc_clockid0_1==1@|M:ClockId_0_1 @XP_NAMES_BY_PROP">ClockId_0_1</a>       clk_led.Q[0]        dffre                  4                      led[3:0]            Derived clock on input (not legal for GCC)
+@KP:ckid0_1       clk_led.Q[0]        dffre                  4                      led[3:0]            Derived clock on input (not legal for GCC)
 ==================================================================================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######
 
-@N: : <!@TM:1535986998> | Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized. 
+@N|Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
-@N:<a href="@N:BN225:@XP_HELP">BN225</a> : <!@TM:1535986998> | Writing default property annotation file C:\Gowin\gowin-blink\impl\synthesize\rev_1\fpga_project.sap. 
+@N: BN225 |Writing default property annotation file C:\Gowin\gowin-blink\impl\synthesize\rev_1\fpga_project.sap.
 
 Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 187MB peak: 190MB)
 
@@ -260,14 +249,12 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 103MB peak: 190MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Sep  3 23:03:18 2018
+# Mon Sep  3 22:46:04 2018
 
 ###########################################################]
+Map & Optimize Report
 
-</pre></samp></body></html>
-<html><body><samp><pre>
-<!@TC:1535986994>
-# Mon Sep  3 23:03:18 2018
+# Mon Sep  3 22:46:05 2018
 
 
 Copyright (C) 1994-2018 Synopsys, Inc.
@@ -283,14 +270,14 @@ OS: Windows 6.2
 Hostname: BEACONDEV3
 
 Implementation : rev_1
-<a name=mapperReport8></a>Synopsys Generic Technology Mapper, Version mapgw, Build 1086R, Built May 17 2018 10:22:59</a>
+Synopsys Generic Technology Mapper, Version mapgw, Build 1086R, Built May 17 2018 10:22:59
 
 
 Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
 
-@N:<a href="@N:MF916:@XP_HELP">MF916</a> : <!@TM:1535987002> | Option synthesis_strategy=base is enabled.  
-@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1535987002> | Running in 64-bit mode. 
-@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1535987002> | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
 
 Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
 
@@ -311,7 +298,7 @@ Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapse
 Available hyper_sources - for debug and ip models
 	None Found
 
-@N:<a href="@N:MT206:@XP_HELP">MT206</a> : <!@TM:1535987002> | Auto Constrain mode is enabled 
+@N: MT206 |Auto Constrain mode is enabled
 
 Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 187MB peak: 190MB)
 
@@ -345,12 +332,12 @@ Pass		 CPU time		Worst Slack		Luts / Registers
 
 Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 190MB)
 
-@N:<a href="@N:FX164:@XP_HELP">FX164</a> : <!@TM:1535987002> | The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.   
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 
 Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 190MB)
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 190MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 117MB peak: 190MB)
 
 Writing Analyst data base C:\Gowin\gowin-blink\impl\synthesize\rev_1\synwork\fpga_project_m.srm
 
@@ -360,21 +347,21 @@ Writing Verilog Simulation files
 
 Writing scf file... (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 188MB peak: 190MB)
 
-@N:<a href="@N:BW103:@XP_HELP">BW103</a> : <!@TM:1535987002> | The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns. 
-@N:<a href="@N:BW107:@XP_HELP">BW107</a> : <!@TM:1535987002> | Synopsys Constraint File capacitance units using default value of 1pF  
-@A:<a href="@A:BN540:@XP_HELP">BN540</a> : <!@TM:1535987002> | No min timing constraints supplied; adding min timing constraints 
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@A: BN540 |No min timing constraints supplied; adding min timing constraints
 
 Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 186MB peak: 190MB)
 
 
 Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 187MB peak: 190MB)
 
-<font color=#A52A2A>@W:<a href="@W:MT420:@XP_HELP">MT420</a> : <!@TM:1535987002> | Found inferred clock demo|clk_50M with period 10.00ns. Please declare a user-defined clock on port clk_50M.</font> 
-@N:<a href="@N:MT615:@XP_HELP">MT615</a> : <!@TM:1535987002> | Found clock demo|clk_led_derived_clock with period 10.00ns  
+@W: MT420 |Found inferred clock demo|clk_50M with period 10.00ns. Please declare a user-defined clock on port clk_50M.
+@N: MT615 |Found clock demo|clk_led_derived_clock with period 10.00ns 
 
 
-<a name=timingReport9></a>##### START OF TIMING REPORT #####[</a>
-<a name=pnr10></a># Timing Report written on Mon Sep  3 23:03:22 2018</a>
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Sep  3 22:46:08 2018
 #
 
 
@@ -383,13 +370,13 @@ Requested Frequency:    100.0 MHz
 Wire load mode:         top
 Paths requested:        5
 Constraint File(s):    
-@N:<a href="@N:MT320:@XP_HELP">MT320</a> : <!@TM:1535987002> | This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report. 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
 
-@N:<a href="@N:MT322:@XP_HELP">MT322</a> : <!@TM:1535987002> | Clock constraints include only register-to-register paths associated with each individual clock. 
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
 
 
 
-<a name=performanceSummary11></a>Performance Summary</a>
+Performance Summary
 *******************
 
 
@@ -407,7 +394,7 @@ System                         100.0 MHz     866.6 MHz      10.000        1.154 
 
 
 
-<a name=clockRelationships12></a>Clock Relationships</a>
+Clock Relationships
 *******************
 
 Clocks                                                  |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
@@ -425,7 +412,7 @@ demo|clk_led_derived_clock  demo|clk_led_derived_clock  |  10.000      18.479  |
 
 
 
-<a name=interfaceInfo13></a>Interface Information </a>
+Interface Information 
 *********************
 
 No IO constraint found
@@ -433,12 +420,12 @@ No IO constraint found
 
 
 ====================================
-<a name=clockReport14></a>Detailed Report for Clock: demo|clk_50M</a>
+Detailed Report for Clock: demo|clk_50M
 ====================================
 
 
 
-<a name=startingSlack15></a>Starting Points with Worst Slack</a>
+Starting Points with Worst Slack
 ********************************
 
              Starting                                      Arrival          
@@ -458,7 +445,7 @@ cnt[16]      demo|clk_50M     DFFC     Q       cnt[16]     0.367       2.091
 ============================================================================
 
 
-<a name=endingSlack16></a>Ending Points with Worst Slack</a>
+Ending Points with Worst Slack
 ******************************
 
              Starting                                        Required          
@@ -479,8 +466,7 @@ cnt[21]      demo|clk_50M     DFFC     D       cnt_3[21]     9.867        1.537
 
 
 
-<a name=worstPaths17></a>Worst Path Information</a>
-<a href="C:\Gowin\gowin-blink\impl\synthesize\rev_1\fpga_project.srr:srsfC:\Gowin\gowin-blink\impl\synthesize\rev_1\fpga_project.srs:fp:24203:25388:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+Worst Path Information
 ***********************
 
 
@@ -526,12 +512,12 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 
 
 ====================================
-<a name=clockReport18></a>Detailed Report for Clock: demo|clk_led_derived_clock</a>
+Detailed Report for Clock: demo|clk_led_derived_clock
 ====================================
 
 
 
-<a name=startingSlack19></a>Starting Points with Worst Slack</a>
+Starting Points with Worst Slack
 ********************************
 
              Starting                                                     Arrival           
@@ -545,7 +531,7 @@ led[3]       demo|clk_led_derived_clock     DFFC     Q       led_c[3]     0.367 
 ============================================================================================
 
 
-<a name=endingSlack20></a>Ending Points with Worst Slack</a>
+Ending Points with Worst Slack
 ******************************
 
              Starting                                                     Required           
@@ -560,8 +546,7 @@ led[3]       demo|clk_led_derived_clock     DFFC     D       led_c[2]     19.867
 
 
 
-<a name=worstPaths21></a>Worst Path Information</a>
-<a href="C:\Gowin\gowin-blink\impl\synthesize\rev_1\fpga_project.srr:srsfC:\Gowin\gowin-blink\impl\synthesize\rev_1\fpga_project.srs:fp:28881:29118:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+Worst Path Information
 ***********************
 
 
@@ -596,12 +581,12 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 
 
 ====================================
-<a name=clockReport22></a>Detailed Report for Clock: System</a>
+Detailed Report for Clock: System
 ====================================
 
 
 
-<a name=startingSlack23></a>Starting Points with Worst Slack</a>
+Starting Points with Worst Slack
 ********************************
 
                        Starting                                       Arrival          
@@ -613,7 +598,7 @@ rst_n_ibuf_RNIBNDC     System        INV      O       rst_n_c_i       0.000     
 =======================================================================================
 
 
-<a name=endingSlack24></a>Ending Points with Worst Slack</a>
+Ending Points with Worst Slack
 ******************************
 
              Starting                                           Required          
@@ -626,8 +611,7 @@ led[0]       System        DFFP      PRESET     rst_n_c_i       9.867        8.8
 
 
 
-<a name=worstPaths25></a>Worst Path Information</a>
-<a href="C:\Gowin\gowin-blink\impl\synthesize\rev_1\fpga_project.srr:srsfC:\Gowin\gowin-blink\impl\synthesize\rev_1\fpga_project.srs:fp:31982:32222:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+Worst Path Information
 ***********************
 
 
@@ -671,7 +655,7 @@ Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0
 Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 188MB peak: 190MB)
 
 ---------------------------------------
-<a name=resourceUsage26></a>Resource Usage Report for demo </a>
+Resource Usage Report for demo 
 
 Mapping to part: gw1n_4lqfp144-6
 Cell usage:
@@ -704,8 +688,6 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 37MB peak: 190MB)
 
 Process took 0h:00m:03s realtime, 0h:00m:03s cputime
-# Mon Sep  3 23:03:22 2018
+# Mon Sep  3 22:46:08 2018
 
 ###########################################################]
-
-</pre></samp></body></html>

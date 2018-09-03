@@ -2,7 +2,7 @@
 // Written by Synplify Pro 
 // Product Version "N-2018.03G-Beta6"
 // Program "Synplify Pro", Mapper "mapgw, Build 1086R"
-// Mon Sep  3 22:46:07 2018
+// Mon Sep  3 23:03:21 2018
 //
 // Source file index table:
 // Object locations will have the form <file>:<line>
@@ -312,28 +312,28 @@ defparam clk_led4_11_cZ.INIT=4'h1;
 	.CLK(clk_50M_c),
 	.CLEAR(rst_n_c_i)
 );
-// @5:42
+// @5:53
   DFFC \led_Z[3]  (
 	.Q(led_c[3]),
 	.D(led_c[2]),
 	.CLK(clk_led),
 	.CLEAR(rst_n_c_i)
 );
-// @5:42
+// @5:53
   DFFC \led_Z[2]  (
 	.Q(led_c[2]),
 	.D(led_c[1]),
 	.CLK(clk_led),
 	.CLEAR(rst_n_c_i)
 );
-// @5:42
+// @5:53
   DFFC \led_Z[1]  (
 	.Q(led_c[1]),
 	.D(led_c[0]),
 	.CLK(clk_led),
 	.CLEAR(rst_n_c_i)
 );
-// @5:42
+// @5:53
   DFFP \led_Z[0]  (
 	.Q(led_c[0]),
 	.D(led_c[3]),

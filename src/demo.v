@@ -35,10 +35,21 @@ always@(                //  Code below is always triggered when these conditions
     end
 end
 
-//  This block watches for the clk_led bit to flip from 0 to 1 and shifts the 4 LED lights.
+//  This block watches for the clk_led bit to flip from 0 to 1 and shifts the 4 LED lights left.
 //  The state of the 4 LED lights is remembered by the 4-bit register "led", which looks like this:
-//    led[3] | led[2] | led[1] | led[0]
-//     OFF      OFF      OFF       ON     Suppose our 4 LEDs are 
+//  { led[3] , led[2] , led[1] , led[0] } Register "led" is a 4-bit value.
+//     ON       ON       ON       OFF     Suppose our 4 LEDs are ON, ON, ON, OFF...
+//      0        0        0        1      Map ON to 0 (Low) and OFF to 1 (High)...
+//  Which equals Binary 0001 = Decimal 1, the "led" value for ON, ON, ON, OFF
+
+//  Now what happens when we shift each bit l place left?
+//  { led[2] , led[1] , led[0] , led[3] } Register "led" is shifted left 1 bit. Bit 3 wraps to 0.
+//     ON       ON       OFF      ON      Now our 4 LEDs are ON, ON, OFF, ON...
+//      0        0        1        0      Map ON to 0 (Low) and OFF to 1 (High)...
+//  Which equals Binary 0010 = Decimal 2, the "led" value for ON, ON, OFF, ON
+//  The first 2 columns { led[2], led[1], led[0] } can be written as { led[2:0] }
+//  Hence to shift left, we would write { led[2:0], led[3] }
+
 always@(                //  Code below is always triggered when these conditions are true...
     posedge clk_led or  //  When the clk_led register transitions from low to high (positive edge) OR
     negedge rst_n       //  When the reset signal transitions from high to low (negative edge) which
@@ -46,9 +57,9 @@ always@(                //  Code below is always triggered when these conditions
 
     if (!rst_n) begin  //  If board restarts or reset button is pressed...
         led <= 4'h1;   //  Init the 4-bit led value to 1.  "4'h1" means "4-bit, Hexadecimal Value 1".
-    end
+    end                //  Value 1 means ON, ON, ON, OFF for the 4 LEDs (see above)
     else begin
-        led <= {led[2:0], led[3]};
+        led <= { led[2:0], led[3] };  //  Else we shift the LEDs left 1 place (see above)
     end
 end
 endmodule
