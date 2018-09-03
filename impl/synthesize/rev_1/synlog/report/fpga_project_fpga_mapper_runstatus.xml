@@ -5,7 +5,7 @@ The file contains the job information from mapper to be displayed as part of the
 *******************************************************************************************-->
 <job_run_status name="Mapper">
 <report_link name="Detailed report">
-<data>C:\Gowin\fpga_project\impl\synthesize\rev_1\synlog\fpga_project_fpga_mapper.srr</data>
+<data>C:\Gowin\gowin-blink\impl\synthesize\rev_1\synlog\fpga_project_fpga_mapper.srr</data>
 <title></title>
 </report_link>
 <job_status>
@@ -15,32 +15,32 @@ The file contains the job information from mapper to be displayed as part of the
 <info name="Notes">
 <data>10</data>
 <report_link name="more">
-<data>C:\Gowin\fpga_project\impl\synthesize\rev_1\synlog\report\fpga_project_fpga_mapper_notes.txt</data>
+<data>C:\Gowin\gowin-blink\impl\synthesize\rev_1\synlog\report\fpga_project_fpga_mapper_notes.txt</data>
 </report_link>
 </info>
 <info name="Warnings">
 <data>1</data>
 <report_link name="more">
-<data>C:\Gowin\fpga_project\impl\synthesize\rev_1\synlog\report\fpga_project_fpga_mapper_warnings.txt</data>
+<data>C:\Gowin\gowin-blink\impl\synthesize\rev_1\synlog\report\fpga_project_fpga_mapper_warnings.txt</data>
 </report_link>
 </info>
 <info name="Errors">
 <data>0</data>
 <report_link name="more">
-<data>C:\Gowin\fpga_project\impl\synthesize\rev_1\synlog\report\fpga_project_fpga_mapper_errors.txt</data>
+<data>C:\Gowin\gowin-blink\impl\synthesize\rev_1\synlog\report\fpga_project_fpga_mapper_errors.txt</data>
 </report_link>
 </info>
 <info name="CPU Time">
 <data>0h:00m:03s</data>
 </info>
 <info name="Real Time">
-<data>0h:00m:04s</data>
+<data>0h:00m:03s</data>
 </info>
 <info name="Peak Memory">
 <data>190MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1535701028</data>
+<data type="timestamp">1535985968</data>
 </info>
 </job_info>
 </job_run_status>

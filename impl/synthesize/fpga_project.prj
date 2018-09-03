@@ -1,5 +1,5 @@
 # project files
-add_file -verilog "C:/Gowin/fpga_project/src/demo.v"
+add_file -verilog "C:/Gowin/gowin-blink/src/demo.v"
 
 # implementation: "rev_1"
 impl -add rev_1 -type fpga

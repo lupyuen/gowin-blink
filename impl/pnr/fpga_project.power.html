@@ -71,24 +71,24 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 </tr>
 <tr>
 <td class="label">Design File</td>
-<td>C:\Gowin\fpga_project\impl\synthesize\rev_1\fpga_project.vm</td>
+<td>C:\Gowin\gowin-blink\impl\synthesize\rev_1\fpga_project.vm</td>
 </tr>
 <tr>
 <td class="label">Constraint File</td>
-<td>C:\Gowin\fpga_project\src\fpga_project.sdc;C:\Gowin\fpga_project\src\fpga_project.cst</td>
+<td>C:\Gowin\gowin-blink\src\fpga_project.sdc;C:\Gowin\gowin-blink\src\fpga_project.cst</td>
 </tr>
 <tr>
 <td class="label">Power Report File</td>
-<td>C:\Gowin\fpga_project\impl\pnr\fpga_project.power.html_power.html</td>
+<td>C:\Gowin\gowin-blink\impl\pnr\fpga_project.power.html_power.html</td>
 </tr>
 <tr>
 <td class="label">Created Time</td>
-<td>Fri Aug 31 15:37:17 2018
+<td>Mon Sep 03 22:46:16 2018
 </td>
 </tr>
 <tr>
 <td class="label">Command Line</td>
-<td>C:\Gowin\1.8\Pnr\bin\gowin.exe -do C:\Gowin\fpga_project\impl\pnr\cmd.do </td>
+<td>C:\Gowin\1.8\Pnr\bin\gowin.exe -do C:\Gowin\gowin-blink\impl\pnr\cmd.do </td>
 </tr>
 <tr>
 <td class="label">Legal Announcement</td>
@@ -100,22 +100,22 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <table class="summary_table">
 <tr>
 <td class="label">Total Power (mW)</td>
-<td>3.085</td>
+<td>5.031</td>
 </tr>
 <tr>
 <td class="label">Quiescent Power (mW)</td>
-<td>2.869</td>
+<td>2.870</td>
 </tr>
 <tr>
 <td class="label">Dynamic Power (mW)</td>
-<td>0.216</td>
+<td>2.162</td>
 </tr>
 </table>
 <h2><a name="Thermal_Info">Thermal Information:</a></h2>
 <table class="summary_table">
 <tr>
 <td class="label">Junction Temperature</td>
-<td>25.022</td>
+<td>25.035</td>
 </tr>
 <tr>
 <td class="label">Theta JA</td>
@@ -123,7 +123,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 </tr>
 <tr>
 <td class="label">Max Allowed Ambient Temperature</td>
-<td>84.978</td>
+<td>84.964</td>
 </tr>
 </table>
 <h2><a name="Configure_Info">Configure Information:</a></h2>
@@ -192,23 +192,23 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <tr>
 <td>VCC</td>
 <td>1.200</td>
-<td>0.039</td>
+<td>1.520</td>
 <td>2.225</td>
-<td>2.717</td>
+<td>4.495</td>
 </tr>
 <tr>
 <td>VCCX</td>
 <td>2.500</td>
-<td>0.039</td>
+<td>0.079</td>
 <td>0.047</td>
-<td>0.215</td>
+<td>0.313</td>
 </tr>
 <tr>
 <td>VCCO18</td>
 <td>1.800</td>
-<td>0.039</td>
+<td>0.078</td>
 <td>0.046</td>
-<td>0.153</td>
+<td>0.223</td>
 </tr>
 </table>
 <h1><a name="Detail">Power Details</a></h1>
@@ -221,10 +221,16 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <th class="label">Average Toggle Rate(millions of transitions/sec)</th>
 </tr>
 <tr>
+<td>Logic</td>
+<td>0.624</td>
+<td>NA</td>
+<td>13.366</td>
+</tr>
+<tr>
 <td>IO</td>
-<td>0.471
+<td>0.687
 <td>0.255
-<td>9.375
+<td>18.750
 </tr>
 </table>
 <h2><a name="By_Hierarchy">Power By Hierarchy:</a></h2>
@@ -237,9 +243,9 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 </tr>
 <tr>
 <td>demo</td>
-<td>0.000</td>
-<td>0.000(0.000)</td>
-<td>0.000(0.000)</td>
+<td>1.726</td>
+<td>0.624(0.000)</td>
+<td>1.102(0.000)</td>
 </table>
 <h2><a name="By_Clock_Domain">Power By Clock Domain:</a></h2>
 <table class="detail_table">
@@ -249,9 +255,9 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <th class="label">Total Dynamic Power(mW)</th>
 </tr>
 <tr>
-<td>NO CLOCK DOMAIN</td>
-<td>0.000</td>
-<td>0.000</td>
+<td>DEFAULT_CLK</td>
+<td>100.000</td>
+<td>1.730</td>
 </tr>
 </table>
 </div><!-- content -->

@@ -5,4 +5,4 @@
 @N: MH105 |UMR3 is only supported for HAPS-80.
 @N: MF578 |Incompatible asynchronous control logic preventing generated clock conversion.
 @N|Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
-@N: BN225 |Writing default property annotation file C:\Gowin\fpga_project\impl\synthesize\rev_1\fpga_project.sap.
+@N: BN225 |Writing default property annotation file C:\Gowin\gowin-blink\impl\synthesize\rev_1\fpga_project.sap.

@@ -39,18 +39,17 @@ Synopsys Verilog Compiler, Version comp2018q1p1, Build 118R, Built May 15 2018 0
 @I::"C:\Gowin\1.8\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
 @I::"C:\Gowin\1.8\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
 @I::"C:\Gowin\1.8\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
-@I::"C:\Gowin\fpga_project\src\demo.v" (library work)
+@I::"C:\Gowin\gowin-blink\src\demo.v" (library work)
 Verilog syntax check successful!
-Options changed - recompiling
 Selecting top level module demo
-@N: CG364 :"C:\Gowin\fpga_project\src\demo.v":2:7:2:10|Synthesizing module demo in library work.
+@N: CG364 :"C:\Gowin\gowin-blink\src\demo.v":4:7:4:10|Synthesizing module demo in library work.
 
 At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Aug 31 15:36:57 2018
+# Mon Sep  3 22:46:01 2018
 
 ###########################################################]
 
@@ -70,25 +69,24 @@ Implementation : rev_1
 Synopsys Synopsys Netlist Linker, Version comp2018q1p1, Build 118R, Built May 15 2018 09:18:11
 
 @N|Running in 64-bit mode
-File C:\Gowin\fpga_project\impl\synthesize\rev_1\synwork\layer0.srs changed - recompiling
-@N: NF107 :"C:\Gowin\fpga_project\src\demo.v":2:7:2:10|Selected library: work cell: demo view verilog as top level
-@N: NF107 :"C:\Gowin\fpga_project\src\demo.v":2:7:2:10|Selected library: work cell: demo view verilog as top level
+@N: NF107 :"C:\Gowin\gowin-blink\src\demo.v":4:7:4:10|Selected library: work cell: demo view verilog as top level
+@N: NF107 :"C:\Gowin\gowin-blink\src\demo.v":4:7:4:10|Selected library: work cell: demo view verilog as top level
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Aug 31 15:36:58 2018
+# Mon Sep  3 22:46:01 2018
 
 ###########################################################]
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Aug 31 15:36:58 2018
+# Mon Sep  3 22:46:01 2018
 
 ###########################################################]

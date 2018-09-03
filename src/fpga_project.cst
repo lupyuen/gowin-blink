@@ -5,7 +5,6 @@
  Device:         GW1N-4
  Package:        LQFP144
 ************************************************************************/
-NET_LOC "clk_50M_c" BUFG = CLK ;
 IO_LOC "clk_50M" 6;
 IO_LOC "led[0]" 47;
 IO_LOC "led[1]" 57;

@@ -1,14 +1,14 @@
 #--  Synopsys, Inc.
 #--  Version N-2018.03G-Beta6
-#--  Project file C:\Gowin\fpga_project\impl\synthesize\rev_1\scratchproject.prs
+#--  Project file C:\Gowin\gowin-blink\impl\synthesize\rev_1\scratchproject.prs
 
 #project files
-add_file -verilog "C:/Gowin/fpga_project/src/demo.v"
+add_file -verilog "C:/Gowin/gowin-blink/src/demo.v"
 
 
 
 #implementation: "rev_1"
-impl -add C:\Gowin\fpga_project\impl\synthesize\rev_1 -type fpga
+impl -add C:\Gowin\gowin-blink\impl\synthesize\rev_1 -type fpga
 
 #
 #implementation attributes
@@ -63,5 +63,5 @@ set_option -auto_infer_blackbox 0
 set_option -write_apr_constraint 1
 
 #set result format/file last
-project -result_file "C:/Gowin/fpga_project/impl/synthesize/rev_1/fpga_project.vm"
+project -result_file "C:/Gowin/gowin-blink/impl/synthesize/rev_1/fpga_project.vm"
 impl -active "rev_1"

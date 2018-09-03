@@ -5,7 +5,7 @@ The file contains the area information from mapper to be displayed as part of th
 *******************************************************************************************-->
 <report_table display_priority="1" name="Area Summary">
 <report_link name="Detailed report">
-<data>C:\Gowin\fpga_project\impl\synthesize\rev_1\synlog\report\fpga_project_fpga_mapper_resourceusage.rpt</data>
+<data>C:\Gowin\gowin-blink\impl\synthesize\rev_1\synlog\report\fpga_project_fpga_mapper_resourceusage.rpt</data>
 <title>Resource Usage</title>
 </report_link>
 <parameter tcl_name="io_port" tooltip="Total I/O ports used" name="I/O ports">

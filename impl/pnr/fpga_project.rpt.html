@@ -69,28 +69,28 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 </tr>
 <tr>
 <td class="label">Design File</td>
-<td>C:\Gowin\fpga_project\impl\synthesize\rev_1\fpga_project.vm</td>
+<td>C:\Gowin\gowin-blink\impl\synthesize\rev_1\fpga_project.vm</td>
 </tr>
 <tr>
 <td class="label">Physical Constraint File</td>
-<td>C:\Gowin\fpga_project\src\fpga_project.cst</td>
+<td>C:\Gowin\gowin-blink\src\fpga_project.cst</td>
 </tr>
 <tr>
 <td class="label">Timing Constraint File</td>
-<td>C:\Gowin\fpga_project\src\fpga_project.sdc</td>
+<td>C:\Gowin\gowin-blink\src\fpga_project.sdc</td>
 </tr>
 <tr>
 <td class="label">PnR Report File</td>
-<td>C:\Gowin\fpga_project\impl\pnr\fpga_project.rpt.html</td>
+<td>C:\Gowin\gowin-blink\impl\pnr\fpga_project.rpt.html</td>
 </tr>
 <tr>
 <td class="label">Created Time</td>
-<td>Fri Aug 31 15:37:17 2018
+<td>Mon Sep 03 22:46:16 2018
 </td>
 </tr>
 <tr>
 <td class="label">Command Line</td>
-<td>C:\Gowin\1.8\Pnr\bin\gowin.exe -do C:\Gowin\fpga_project\impl\pnr\cmd.do </td>
+<td>C:\Gowin\1.8\Pnr\bin\gowin.exe -do C:\Gowin\gowin-blink\impl\pnr\cmd.do </td>
 </tr>
 <tr>
 <td class="label">Legal Announcement</td>
@@ -102,10 +102,10 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <h2><a name="Placer">Placer:</a></h2>
 <p style="font-size: 14px;">Starting Placer:</p>
 <p style="font-size: 14px;">&nbsp &nbsp  Placement Phase 0 ...  &nbsp  REAL time: 3e-006 secs</p>
-<p style="font-size: 14px;">&nbsp &nbsp  Placement Phase 1 ...  &nbsp  REAL time: 8.4e-005 secs</p>
-<p style="font-size: 14px;">&nbsp &nbsp  Placement Phase 2 ...  &nbsp  REAL time: 2e-006 secs</p>
-<p style="font-size: 14px;">&nbsp &nbsp  Placement Phase 3 ...  &nbsp  REAL time: 0.001136 secs</p>
-<p style="font-size: 14px;">Total REAL time to Placement completion: 1.225 secs.<p><br/>
+<p style="font-size: 14px;">&nbsp &nbsp  Placement Phase 1 ...  &nbsp  REAL time: 0.000102 secs</p>
+<p style="font-size: 14px;">&nbsp &nbsp  Placement Phase 2 ...  &nbsp  REAL time: 1e-006 secs</p>
+<p style="font-size: 14px;">&nbsp &nbsp  Placement Phase 3 ...  &nbsp  REAL time: 0.001107 secs</p>
+<p style="font-size: 14px;">Total REAL time to Placement completion: 1.213 secs.<p><br/>
 <h2><a name="Resource_Usage_Summary">Resource Usage Summary:</a></h2>
 <table class="summary_table">
 <tr>
@@ -140,7 +140,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 </tr>
 <tr>
 <td class="label">CLSs(used)</td>
-<td>28/2304</td>
+<td>29/2304</td>
 <td>1%</td>
 </tr>
 <tr>
@@ -241,9 +241,9 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <h2><a name="Router">Router:</a></h2>
 <p  style="font-size: 14px;">Starting Router:</p>
 <p  style="font-size: 14px;">&nbsp &nbsp  Route Phase 0: 113 unrouted; &nbsp REAL time: 0 secs</p>
-<p  style="font-size: 14px;">&nbsp &nbsp  Route Phase 1: 53 unrouted; &nbsp REAL time: 0.091 secs</p>
-<p  style="font-size: 14px;">&nbsp &nbsp  Route Phase 2: 0 unrouted; &nbsp REAL time: 0.028 secs</p>
-<p  style="font-size: 14px;">  Total REAL time to Router completion: 0.119 secs.</p><br/>
+<p  style="font-size: 14px;">&nbsp &nbsp  Route Phase 1: 53 unrouted; &nbsp REAL time: 0.086 secs</p>
+<p  style="font-size: 14px;">&nbsp &nbsp  Route Phase 2: 0 unrouted; &nbsp REAL time: 0.032 secs</p>
+<p  style="font-size: 14px;">  Total REAL time to Router completion: 0.118 secs.</p><br/>
 <h2><a name="Global_Clock_Usage_Summary">Global Clock Usage Summary:</a></h2>
 <table class="summary_table">
 <tr>
@@ -326,9 +326,9 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 </tr>
 <tr>
 <td class="label">rst_n</td>
-<td>43/2</td>
+<td>39/2</td>
 <td>in</td>
-<td>IOB8[B]</td>
+<td>IOB6[B]</td>
 <td>LVCMOS18</td>
 <td>NA</td>
 <td>UP</td>
@@ -770,14 +770,14 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <td>-</td>
 </tr>
 <td class="label">39/2</td>
-<td>UNUSED</td>
-<td>-</td>
+<td>rst_n</td>
+<td>in</td>
 <td>IOB6[B]</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
+<td>LVCMOS18</td>
+<td>UP</td>
+<td>NONE</td>
+<td>NA</td>
+<td>NA</td>
 </tr>
 <td class="label">40/2</td>
 <td>UNUSED</td>
@@ -810,14 +810,14 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <td>-</td>
 </tr>
 <td class="label">43/2</td>
-<td>rst_n</td>
-<td>in</td>
+<td>UNUSED</td>
+<td>-</td>
 <td>IOB8[B]</td>
-<td>LVCMOS18</td>
-<td>UP</td>
-<td>NONE</td>
-<td>NA</td>
-<td>NA</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
 </tr>
 <td class="label">44/2</td>
 <td>UNUSED</td>

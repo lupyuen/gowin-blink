@@ -1,2 +1,2 @@
 Selecting top level module demo
-@N: CG364 :"C:\Gowin\fpga_project\src\demo.v":2:7:2:10|Synthesizing module demo in library work.
+@N: CG364 :"C:\Gowin\gowin-blink\src\demo.v":4:7:4:10|Synthesizing module demo in library work.

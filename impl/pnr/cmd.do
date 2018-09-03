@@ -1,8 +1,8 @@
--d C:\Gowin\fpga_project\impl\synthesize\rev_1\fpga_project.vm
--cst C:\Gowin\fpga_project\src\fpga_project.cst
--sdc C:\Gowin\fpga_project\src\fpga_project.sdc
+-d C:\Gowin\gowin-blink\impl\synthesize\rev_1\fpga_project.vm
+-cst C:\Gowin\gowin-blink\src\fpga_project.cst
+-sdc C:\Gowin\gowin-blink\src\fpga_project.sdc
 -p GW1N-4-LQFP144-6
--cfg C:\Gowin\fpga_project\impl\pnr\device.cfg
+-cfg C:\Gowin\gowin-blink\impl\pnr\device.cfg
 -bit
 -tr
 -ph

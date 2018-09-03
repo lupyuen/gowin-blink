@@ -1,4 +1,0 @@
-@W: CS141 :"C:\Gowin\fpga_project\src\i2c_master_bit_ctrl.v":185:36:185:45|Unrecognized synthesis directive enum_state. Verify the correct directive name.
-@W: CG286 :"C:\Gowin\fpga_project\src\i2c_master_bit_ctrl.v":410:24:410:27|Case statement has both a full_case directive and a default clause -- ignoring full_case directive.
-@W: CS141 :"C:\Gowin\fpga_project\src\i2c_master_byte_ctrl.v":199:32:199:41|Unrecognized synthesis directive enum_state. Verify the correct directive name.
-

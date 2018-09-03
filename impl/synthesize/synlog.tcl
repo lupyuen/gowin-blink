@@ -1,2 +1,2 @@
-project -load C:/Gowin/fpga_project/impl/synthesize/fpga_project.prj
+project -load C:/Gowin/gowin-blink/impl/synthesize/fpga_project.prj
 project -run synthesis 

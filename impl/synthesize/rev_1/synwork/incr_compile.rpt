@@ -14,29 +14,25 @@ Hostname: BEACONDEV3
 Implementation : rev_1
 Synopsys HDL compiler and linker, Version comp2018q1p1, Build 118R, Built May 15 2018 09:18:11
 
-Modified Files: 5
+Modified Files: 6
 FID:  path (prevtimestamp, timestamp)
-6        C:\Gowin\fpga_project\src\i2c_master_bit_ctrl.v (2018-08-29 00:37:25, N/A)
-7        C:\Gowin\fpga_project\src\i2c_master_byte_ctrl.v (2018-08-29 00:38:49, N/A)
-8        C:\Gowin\fpga_project\src\i2c_master_defines.v (2018-08-29 00:39:24, N/A)
-9        C:\Gowin\fpga_project\src\i2c_master_top.v (2018-08-29 00:39:50, N/A)
-10       C:\Gowin\fpga_project\src\timescale.v (2018-08-29 00:44:28, N/A)
+0        C:\Gowin\1.8\SynplifyPro\lib\generic\gw1n.v (N/A, 2018-05-16 00:54:32)
+1        C:\Gowin\1.8\SynplifyPro\lib\vlog\hypermods.v (N/A, 2018-05-16 00:08:32)
+2        C:\Gowin\1.8\SynplifyPro\lib\vlog\scemi_objects.v (N/A, 2018-05-16 00:08:32)
+3        C:\Gowin\1.8\SynplifyPro\lib\vlog\scemi_pipes.svh (N/A, 2018-05-16 00:08:32)
+4        C:\Gowin\1.8\SynplifyPro\lib\vlog\umr_capim.v (N/A, 2018-05-16 00:08:32)
+5        C:\Gowin\gowin-blink\src\demo.v (N/A, 2018-09-03 22:28:09)
 
 *******************************************************************
-Modules that may have changed as a result of file changes: 0
+Modules that may have changed as a result of file changes: 1
 MID:  lib.cell.view
+0        work.demo.verilog may have changed because the following files changed:
+                        C:\Gowin\gowin-blink\src\demo.v (N/A, 2018-09-03 22:28:09) <-- (module definition)
 
 *******************************************************************
-Unmodified files: 6
+Unmodified files: 0
 FID:  path (timestamp)
-0        C:\Gowin\1.8\SynplifyPro\lib\generic\gw1n.v (2018-05-16 00:54:32)
-1        C:\Gowin\1.8\SynplifyPro\lib\vlog\hypermods.v (2018-05-16 00:08:32)
-2        C:\Gowin\1.8\SynplifyPro\lib\vlog\scemi_objects.v (2018-05-16 00:08:32)
-3        C:\Gowin\1.8\SynplifyPro\lib\vlog\scemi_pipes.svh (2018-05-16 00:08:32)
-4        C:\Gowin\1.8\SynplifyPro\lib\vlog\umr_capim.v (2018-05-16 00:08:32)
-5        C:\Gowin\fpga_project\src\demo.v (2018-08-29 00:53:32)
 
 *******************************************************************
-Unchanged modules: 1
+Unchanged modules: 0
 MID:  lib.cell.view
-0        work.demo.verilog

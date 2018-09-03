@@ -1,10 +1,11 @@
 Warning (CM1005) : Unsupported attribute 'background_programming' to current device 'GW1N-4' found in configure file.
-Info    (PA0001) : "C:\Gowin\fpga_project\impl\synthesize\rev_1\fpga_project.vm" | Reading netlist file.
-Info    (PA0004) : Parsing netlist file 'C:\Gowin\fpga_project\impl\synthesize\rev_1\fpga_project.vm' completed.
+Info    (PA0001) : "C:\Gowin\gowin-blink\impl\synthesize\rev_1\fpga_project.vm" | Reading netlist file.
+Info    (PA0004) : Parsing netlist file 'C:\Gowin\gowin-blink\impl\synthesize\rev_1\fpga_project.vm' completed.
 Info    (PA0006) : Processing netlist completed.
 Warning (CT1001) : Generic routing resource will be used to clock signal 'clk_50M' by the specified constraint. And then it may lead to the excessive delay or skew.
 Info    (CT0002) : Physical Constraint parsed completed.
 Info    (PR0001) : Placement in progress......
+Warning (PR2017) : 'rst_n_ibuf'(INS_IBUF) can't be placed according to Constraint, because the Constraint location is a Dedicated Pin.
 Info    (PR0005) : Routing in progress......
 Info    (PR0002) : Placement and routing completed.
 Info    (TA0001) : Timing analysis completed.
@@ -15,5 +16,5 @@ Info    (CM0008) : Generate 'fpga_project.power.html' file completed.
 Info    (CM0008) : Generate 'fpga_project.tr.html' file completed.
 Info    (CM0008) : Generate 'fpga_project.rpt.html' file completed.
 Info    (CM0008) : Generate 'fpga_project.rpt.txt' file completed.
-Info    (CM0001) : Fri Aug 31 15:37:17 2018
+Info    (CM0001) : Mon Sep 03 22:46:16 2018
 
