@@ -3,6 +3,9 @@ Blink demo for GOWIN FPGA dev kit DK-START-GW1N4, based on GW1N-4 FPGA with 4K L
 
 `http://www.gowinsemi.com/support/devkits_detail/1/`
 
+- Check out my tutorial: _"Program Your First FPGA With GOWIN GW1N-4"_ <br>
+    https://medium.com/@ly.lee/program-your-first-fpga-with-gowin-gw1n-4-b0d5c22b9fea
+
 - Download the files in this repo and open `fpga_project` in Gowin YunYuan IDE
 
 - Verilog code was reproduced from _"SUG100-1.2E_Gowin YunYuan Software User Guide"_
