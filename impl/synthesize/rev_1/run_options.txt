@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version N-2018.03G-Beta6
 #--  Project file C:\Gowin\gowin-blink\impl\synthesize\rev_1\run_options.txt
-#--  Written on Mon Sep  3 23:03:14 2018
+#--  Written on Mon Oct  8 02:27:54 2018
 
 
 #project files

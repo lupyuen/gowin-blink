@@ -1,6 +1,9 @@
 //  Demo Verilog Module that flashes the LED by shifting 4 bits
 //  from "SUG100-1.2E_Gowin YunYuan Software User Guide"
 
+//  This is needed to prevent oscilloscope build error.
+//  `define IGNORE_VERILOG_BLACKBOX_GUTS 1
+
 module demo (  //  Declare our demo module.
     clk_50M,   //  Declare 3 pins: clk_50M, rst_n, led.
     rst_n,     //  We will connect these pins to the

@@ -2,6 +2,18 @@ Warning (CM1005) : Unsupported attribute 'background_programming' to current dev
 Info    (PA0001) : "C:\Gowin\gowin-blink\impl\synthesize\rev_1\fpga_project.vm" | Reading netlist file.
 Info    (PA0004) : Parsing netlist file 'C:\Gowin\gowin-blink\impl\synthesize\rev_1\fpga_project.vm' completed.
 Info    (PA0006) : Processing netlist completed.
+Info    (PA0004) : Parsing netlist file 'C:\Gowin\gowin-blink\src\gao.v' completed.
+Warning (PA1000) : Dangling Net 'tdo_er2' in module 'gw_gao_top' has NO source instance.
+Warning (PA1000) : Dangling Net 'clk_50M' in module 'ao_top' has NO source instance.
+Warning (PA1000) : Dangling Net 'clk_50M' in module 'ao_top' has NO source instance.
+Warning (PA1000) : Dangling Net 'clk_50M' in module 'ao_top' has NO source instance.
+Warning (PA1000) : Dangling Net 'clk_50M' in module 'ao_top' has NO source instance.
+Warning (PA1000) : Dangling Net 'clk_50M' in module 'ao_top' has NO source instance.
+Warning (PA1000) : Dangling Net 'clk_50M' in module 'ao_top' has NO source instance.
+Warning (PA1000) : Dangling Net 'clk_50M' in module 'ao_top' has NO source instance.
+Warning (PA1000) : Dangling Net 'clk_50M' in module 'ao_top' has NO source instance.
+Warning (PA1000) : Dangling Net 'clk_50M' in module 'ao_top' has NO source instance.
+Info    (PA0006) : Processing netlist completed.
 Warning (CT1001) : Generic routing resource will be used to clock signal 'clk_50M' by the specified constraint. And then it may lead to the excessive delay or skew.
 Info    (CT0002) : Physical Constraint parsed completed.
 Info    (PR0001) : Placement in progress......
@@ -9,12 +21,15 @@ Warning (PR2017) : 'rst_n_ibuf'(INS_IBUF) can't be placed according to Constrain
 Info    (PR0005) : Routing in progress......
 Info    (PR0002) : Placement and routing completed.
 Info    (TA0001) : Timing analysis completed.
+Info    (PR0008) : Placement and routing completed for gao design.
 Info    (FS0001) : Bitstream generation in progress......
 Info    (FS0002) : Bitstream generation completed.
 Info    (PW0001) : Power analysis completed.
 Info    (CM0008) : Generate 'fpga_project.power.html' file completed.
+Info    (CM0008) : Generate 'fpga_project.vo' file completed.
 Info    (CM0008) : Generate 'fpga_project.tr.html' file completed.
+Info    (CM0008) : Generate 'fpga_project.posp' file completed.
 Info    (CM0008) : Generate 'fpga_project.rpt.html' file completed.
 Info    (CM0008) : Generate 'fpga_project.rpt.txt' file completed.
-Info    (CM0001) : Mon Sep 03 23:03:31 2018
+Info    (CM0001) : Mon Oct 08 09:41:57 2018
 

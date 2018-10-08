@@ -1,4 +1,4 @@
-# Mon Sep  3 23:03:16 2018
+# Mon Oct  8 02:27:56 2018
 
 
 Copyright (C) 1994-2018 Synopsys, Inc.
@@ -68,7 +68,7 @@ demo|clk_50M                   26        clk_50M(port)           clk_led.C      
 demo|clk_led_derived_clock     4         clk_led.Q[0](dffre)     led[3:0].C      -                 -            
 ================================================================================================================
 
-@W: MT529 :"c:\gowin\gowin-blink\src\demo.v":18:0:18:5|Found inferred clock demo|clk_50M which controls 26 sequential elements including cnt[24:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"c:\gowin\gowin-blink\src\demo.v":21:0:21:5|Found inferred clock demo|clk_50M which controls 26 sequential elements including cnt[24:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
 
 ICG Latch Removal Summary:
 Number of ICG latches removed: 0
@@ -118,6 +118,6 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 103MB peak: 190MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Sep  3 23:03:18 2018
+# Mon Oct  8 02:27:58 2018
 
 ###########################################################]

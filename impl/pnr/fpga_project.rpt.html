@@ -36,6 +36,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <ul>
 <li><a href="#Placer" style=" font-size: 14px;">Placer</a></li>
 <li><a href="#Resource_Usage_Summary" style=" font-size: 14px;">Resource Usage Summary</a></li>
+<li><a href="#Gao_Resource_Usage_Summary" style=" font-size: 14px;">GAO Resource Usage Summary</a></li>
 <li><a href="#I/O_Bank_Usage_Summary" style=" font-size: 14px;">I/O Bank Usage Summary</a></li>
 <li><a href="#Router" style=" font-size: 14px;">Router</a></li>
 <li><a href="#Global_Clock_Usage_Summary" style=" font-size: 14px;">Global Clock Usage Summary</a></li>
@@ -72,6 +73,10 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <td>C:\Gowin\gowin-blink\impl\synthesize\rev_1\fpga_project.vm</td>
 </tr>
 <tr>
+<td class="label">Gao Design File</td>
+<td>C:\Gowin\gowin-blink\src\gao.v</td>
+</tr>
+<tr>
 <td class="label">Physical Constraint File</td>
 <td>C:\Gowin\gowin-blink\src\fpga_project.cst</td>
 </tr>
@@ -85,7 +90,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 </tr>
 <tr>
 <td class="label">Created Time</td>
-<td>Mon Sep 03 23:03:31 2018
+<td>Mon Oct 08 09:41:57 2018
 </td>
 </tr>
 <tr>
@@ -102,10 +107,10 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <h2><a name="Placer">Placer:</a></h2>
 <p style="font-size: 14px;">Starting Placer:</p>
 <p style="font-size: 14px;">&nbsp &nbsp  Placement Phase 0 ...  &nbsp  REAL time: 3e-006 secs</p>
-<p style="font-size: 14px;">&nbsp &nbsp  Placement Phase 1 ...  &nbsp  REAL time: 8.5e-005 secs</p>
+<p style="font-size: 14px;">&nbsp &nbsp  Placement Phase 1 ...  &nbsp  REAL time: 8.1e-005 secs</p>
 <p style="font-size: 14px;">&nbsp &nbsp  Placement Phase 2 ...  &nbsp  REAL time: 1e-006 secs</p>
-<p style="font-size: 14px;">&nbsp &nbsp  Placement Phase 3 ...  &nbsp  REAL time: 0.001185 secs</p>
-<p style="font-size: 14px;">Total REAL time to Placement completion: 1.274 secs.<p><br/>
+<p style="font-size: 14px;">&nbsp &nbsp  Placement Phase 3 ...  &nbsp  REAL time: 0.001064 secs</p>
+<p style="font-size: 14px;">Total REAL time to Placement completion: 1.149 secs.<p><br/>
 <h2><a name="Resource_Usage_Summary">Resource Usage Summary:</a></h2>
 <table class="summary_table">
 <tr>
@@ -140,7 +145,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 </tr>
 <tr>
 <td class="label">CLSs(used)</td>
-<td>29/2304</td>
+<td>39/2304</td>
 <td>1%</td>
 </tr>
 <tr>
@@ -214,6 +219,44 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <td>0%</td>
 </tr>
 </table>
+<h2><a name="Gao_Resource_Usage_Summary">GAO Resource Usage Summary:</a></h2>
+<table class="summary_table">
+<tr>
+<td class="label"><b>Resource</b></td>
+<td><b>Usage</b></td>
+</tr>
+<td class="label">CFU Logics</td>
+<td>195(159 LUTs, 36 ALUs)</td>
+</tr>
+<tr>
+<td class="label">Registers</td>
+<td>128</td>
+</tr>
+<tr>
+<td class="label">I/O Ports</td>
+<td>10</td>
+</tr>
+<tr>
+<td class="label">I/O Bufs</td>
+<td>4</td>
+</tr>
+<tr>
+<td class="label"> &nbsp &nbsp --Input Bufs</td>
+<td>3</td>
+</tr>
+<tr>
+<td class="label"> &nbsp &nbsp --Output Bufs</td>
+<td>1</td>
+</tr>
+<tr>
+<td class="label"> &nbsp &nbsp --Inout Bufs</td>
+<td>0</td>
+</tr>
+<tr>
+<td class="label">BSRAMs</td>
+<td>1</td>
+</tr>
+</table>
 <h2><a name="I/O_Bank_Usage_Summary">I/O Bank Usage Summary:</a></h2>
 <table class="summary_table">
 <tr>
@@ -241,9 +284,9 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <h2><a name="Router">Router:</a></h2>
 <p  style="font-size: 14px;">Starting Router:</p>
 <p  style="font-size: 14px;">&nbsp &nbsp  Route Phase 0: 113 unrouted; &nbsp REAL time: 0 secs</p>
-<p  style="font-size: 14px;">&nbsp &nbsp  Route Phase 1: 53 unrouted; &nbsp REAL time: 0.09 secs</p>
-<p  style="font-size: 14px;">&nbsp &nbsp  Route Phase 2: 0 unrouted; &nbsp REAL time: 0.032 secs</p>
-<p  style="font-size: 14px;">  Total REAL time to Router completion: 0.122 secs.</p><br/>
+<p  style="font-size: 14px;">&nbsp &nbsp  Route Phase 1: 53 unrouted; &nbsp REAL time: 0.08 secs</p>
+<p  style="font-size: 14px;">&nbsp &nbsp  Route Phase 2: 0 unrouted; &nbsp REAL time: 0.026 secs</p>
+<p  style="font-size: 14px;">  Total REAL time to Router completion: 0.106 secs.</p><br/>
 <h2><a name="Global_Clock_Usage_Summary">Global Clock Usage Summary:</a></h2>
 <table class="summary_table">
 <tr>
@@ -1210,24 +1253,24 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <td>-</td>
 </tr>
 <td class="label">13/3</td>
-<td>UNUSED</td>
-<td>-</td>
-<td>IOL10[A]</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
+<td>tms_pad_i</td>
+<td>in</td>
+<td></td>
+<td>LVCMOS18</td>
+<td>UP</td>
+<td>NONE</td>
+<td>NA</td>
+<td>NA</td>
 </tr>
 <td class="label">14/3</td>
-<td>UNUSED</td>
-<td>-</td>
-<td>IOL10[B]</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
+<td>tck_pad_i</td>
+<td>in</td>
+<td></td>
+<td>LVCMOS18</td>
+<td>UP</td>
+<td>NONE</td>
+<td>NA</td>
+<td>NA</td>
 </tr>
 <td class="label">15/3</td>
 <td>UNUSED</td>
@@ -1240,24 +1283,24 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <td>-</td>
 </tr>
 <td class="label">16/3</td>
-<td>UNUSED</td>
-<td>-</td>
-<td>IOL10[D]</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
+<td>tdi_pad_i</td>
+<td>in</td>
+<td></td>
+<td>LVCMOS18</td>
+<td>UP</td>
+<td>NONE</td>
+<td>NA</td>
+<td>NA</td>
 </tr>
 <td class="label">18/3</td>
-<td>UNUSED</td>
-<td>-</td>
-<td>IOL10[E]</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
+<td>tdo_pad_o</td>
+<td>out</td>
+<td></td>
+<td>LVCMOS18</td>
+<td>UP</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
 </tr>
 <td class="label">20/3</td>
 <td>UNUSED</td>
@@ -1612,7 +1655,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 </table>
 <br/>
 <p style="font-size: 16px;"><b>  Placement and routing completed.</b></p>
-<p style="font-size: 16px;"><b><a name="Memory_Usage">Memory usage: 51MB.</a></b></p>
+<p style="font-size: 16px;"><b><a name="Memory_Usage">Memory usage: 53MB.</a></b></p>
 </div><!-- content -->
 </div><!-- main_wrapper -->
 </body>

@@ -1,13 +1,13 @@
 C:\Gowin\1.8\SynplifyPro\bin64\m_generic.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  C:\Gowin\gowin-blink\impl\synthesize\rev_1   -part GW1N_4  -package LQFP144  -grade -6    -maxfan 10000 -RWCheckOnRam 1 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -csa_carry_chain_maxlen 0 -infer_seqShift -enable_gcc_in_premap -summaryfile C:\Gowin\gowin-blink\impl\synthesize\rev_1\synlog\report\fpga_project_premap.xml -merge_inferred_clocks 0  -ovm  C:\Gowin\gowin-blink\impl\synthesize\rev_1\fpga_project.vm  -conchk_prepass  C:\Gowin\gowin-blink\impl\synthesize\rev_1\fpga_project_cck.rpt   -autoconstraint  -freq 100.000   C:\Gowin\gowin-blink\impl\synthesize\rev_1\synwork\fpga_project_mult.srs  -flow prepass  -gcc_prepass  -osrd  C:\Gowin\gowin-blink\impl\synthesize\rev_1\synwork\fpga_project_prem.srd  -qsap  C:\Gowin\gowin-blink\impl\synthesize\rev_1\fpga_project.sap  -devicelib  C:\Gowin\1.8\SynplifyPro\lib\generic\gw1n.v  -ologparam  C:\Gowin\gowin-blink\impl\synthesize\rev_1\syntmp\fpga_project.plg  -osyn  C:\Gowin\gowin-blink\impl\synthesize\rev_1\synwork\fpga_project_prem.srd  -prjdir  C:\Gowin\gowin-blink\impl\synthesize\  -prjname  fpga_project  -log  C:\Gowin\gowin-blink\impl\synthesize\rev_1\synlog\fpga_project_premap.srr  -sn  2018.03  -jobname  "premap" 
 relcom:..\..\..\..\..\1.8\SynplifyPro\bin64\m_generic.exe -prodtype synplify_pro -encrypt -pro -rundir ..\..\rev_1 -part GW1N_4 -package LQFP144 -grade -6 -maxfan 10000 -RWCheckOnRam 1 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -csa_carry_chain_maxlen 0 -infer_seqShift -enable_gcc_in_premap -summaryfile ..\synlog\report\fpga_project_premap.xml -merge_inferred_clocks 0 -ovm ..\fpga_project.vm -conchk_prepass ..\fpga_project_cck.rpt -autoconstraint -freq 100.000 ..\synwork\fpga_project_mult.srs -flow prepass -gcc_prepass -osrd ..\synwork\fpga_project_prem.srd -qsap ..\fpga_project.sap -devicelib ..\..\..\..\..\1.8\SynplifyPro\lib\generic\gw1n.v -ologparam fpga_project.plg -osyn ..\synwork\fpga_project_prem.srd -prjdir ..\..\ -prjname fpga_project -log ..\synlog\fpga_project_premap.srr -sn 2018.03 -jobname "premap"
 rc:1 success:1 runtime:2
-file:..\fpga_project.vm|io:o|time:1535985968|size:14335|exec:0|csum:
-file:..\fpga_project_cck.rpt|io:o|time:1535986998|size:2504|exec:0|csum:
-file:..\synwork\fpga_project_mult.srs|io:i|time:1535986996|size:2198|exec:0|csum:7AA19A0CBA1411FEFD0E7E482C85CBAA
-file:..\synwork\fpga_project_prem.srd|io:o|time:1535986997|size:4234|exec:0|csum:
-file:..\fpga_project.sap|io:o|time:1535986998|size:453|exec:0|csum:
+file:..\fpga_project.vm|io:o|time:0|size:-1|exec:0|csum:
+file:..\fpga_project_cck.rpt|io:o|time:1538936878|size:2504|exec:0|csum:
+file:..\synwork\fpga_project_mult.srs|io:i|time:1538936876|size:2200|exec:0|csum:F52F54CE80DA90C9B2451B6D27D8C81A
+file:..\synwork\fpga_project_prem.srd|io:o|time:1538936877|size:4252|exec:0|csum:
+file:..\fpga_project.sap|io:o|time:1538936878|size:453|exec:0|csum:
 file:..\..\..\..\..\1.8\SynplifyPro\lib\generic\gw1n.v|io:i|time:1526403272|size:91162|exec:0|csum:6FE3EB7A2EE8E73111EC688BAE636AC2
-file:fpga_project.plg|io:o|time:1535986996|size:0|exec:0|csum:
-file:..\synwork\fpga_project_prem.srd|io:o|time:1535986997|size:4234|exec:0|csum:
-file:..\synlog\fpga_project_premap.srr|io:o|time:1535986998|size:6711|exec:0|csum:
+file:fpga_project.plg|io:o|time:1538936876|size:0|exec:0|csum:
+file:..\synwork\fpga_project_prem.srd|io:o|time:1538936877|size:4252|exec:0|csum:
+file:..\synlog\fpga_project_premap.srr|io:o|time:1538936878|size:6711|exec:0|csum:
 file:..\..\..\..\..\1.8\SynplifyPro\bin64\m_generic.exe|io:i|time:1526578602|size:35019776|exec:1|csum:A38C8B64A54826308121AE5A158D9B58

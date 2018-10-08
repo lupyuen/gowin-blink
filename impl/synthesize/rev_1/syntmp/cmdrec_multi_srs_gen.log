@@ -1,7 +1,7 @@
 C:\Gowin\1.8\SynplifyPro\bin64\syn_nfilter.exe  -link  -multisrs  C:\Gowin\gowin-blink\impl\synthesize\rev_1\synwork\fpga_project_comp.srs  -osyn  C:\Gowin\gowin-blink\impl\synthesize\rev_1\synwork\fpga_project_mult.srs  -log  C:\Gowin\gowin-blink\impl\synthesize\rev_1\synlog\fpga_project_multi_srs_gen.srr 
 relcom:..\..\..\..\..\1.8\SynplifyPro\bin64\syn_nfilter.exe -link -multisrs ..\synwork\fpga_project_comp.srs -osyn ..\synwork\fpga_project_mult.srs -log ..\synlog\fpga_project_multi_srs_gen.srr
 rc:0 success:1 runtime:0
-file:..\synwork\fpga_project_comp.srs|io:i|time:1535986994|size:2244|exec:0|csum:1530106522CBFFDF4AC143FC24C316AB
-file:..\synwork\fpga_project_mult.srs|io:o|time:1535986996|size:2198|exec:0|csum:
-file:..\synlog\fpga_project_multi_srs_gen.srr|io:o|time:1535986996|size:1348|exec:0|csum:
+file:..\synwork\fpga_project_comp.srs|io:i|time:1538936874|size:2244|exec:0|csum:E90050C481838499A51C060E5ECA004E
+file:..\synwork\fpga_project_mult.srs|io:o|time:1538936876|size:2200|exec:0|csum:
+file:..\synlog\fpga_project_multi_srs_gen.srr|io:o|time:1538936876|size:1247|exec:0|csum:
 file:..\..\..\..\..\1.8\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1526401362|size:8704000|exec:1|csum:B95ED65EC47187934F9262CDAE086B51

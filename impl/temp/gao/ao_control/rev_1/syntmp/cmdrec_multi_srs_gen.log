@@ -1,0 +1,7 @@
+C:\Gowin\1.8\SynplifyPro\bin64\syn_nfilter.exe  -link  -multisrs  C:\Gowin\gowin-blink\impl\temp\gao\ao_control\rev_1\synwork\ao_control_comp.srs  -osyn  C:\Gowin\gowin-blink\impl\temp\gao\ao_control\rev_1\synwork\ao_control_mult.srs  -log  C:\Gowin\gowin-blink\impl\temp\gao\ao_control\rev_1\synlog\ao_control_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\1.8\SynplifyPro\bin64\syn_nfilter.exe -link -multisrs ..\synwork\ao_control_comp.srs -osyn ..\synwork\ao_control_mult.srs -log ..\synlog\ao_control_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\ao_control_comp.srs|io:i|time:1538962888|size:9357|exec:0|csum:CE9DCDF2FE8BAA6E4813D5661CC5B2DD
+file:..\synwork\ao_control_mult.srs|io:o|time:1538962889|size:9129|exec:0|csum:
+file:..\synlog\ao_control_multi_srs_gen.srr|io:o|time:1538962889|size:1026|exec:0|csum:
+file:..\..\..\..\..\..\..\1.8\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1526401362|size:8704000|exec:1|csum:B95ED65EC47187934F9262CDAE086B51

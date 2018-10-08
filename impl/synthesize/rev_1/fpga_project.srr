@@ -3,7 +3,7 @@
 #OS: Windows 8 6.2
 #Hostname: BEACONDEV3
 
-# Mon Sep  3 23:03:14 2018
+# Mon Oct  8 02:27:54 2018
 
 #Implementation: rev_1
 
@@ -50,16 +50,15 @@ Synopsys Verilog Compiler, Version comp2018q1p1, Build 118R, Built May 15 2018 0
 @I::"C:\Gowin\1.8\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
 @I::"C:\Gowin\gowin-blink\src\demo.v" (library work)
 Verilog syntax check successful!
-File C:\Gowin\gowin-blink\src\demo.v changed - recompiling
 Selecting top level module demo
-@N: CG364 :"C:\Gowin\gowin-blink\src\demo.v":4:7:4:10|Synthesizing module demo in library work.
+@N: CG364 :"C:\Gowin\gowin-blink\src\demo.v":7:7:7:10|Synthesizing module demo in library work.
 
 At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Sep  3 23:03:14 2018
+# Mon Oct  8 02:27:54 2018
 
 ###########################################################]
 
@@ -79,16 +78,15 @@ Implementation : rev_1
 Synopsys Synopsys Netlist Linker, Version comp2018q1p1, Build 118R, Built May 15 2018 09:18:11
 
 @N|Running in 64-bit mode
-File C:\Gowin\gowin-blink\impl\synthesize\rev_1\synwork\layer0.srs changed - recompiling
-@N: NF107 :"C:\Gowin\gowin-blink\src\demo.v":4:7:4:10|Selected library: work cell: demo view verilog as top level
-@N: NF107 :"C:\Gowin\gowin-blink\src\demo.v":4:7:4:10|Selected library: work cell: demo view verilog as top level
+@N: NF107 :"C:\Gowin\gowin-blink\src\demo.v":7:7:7:10|Selected library: work cell: demo view verilog as top level
+@N: NF107 :"C:\Gowin\gowin-blink\src\demo.v":7:7:7:10|Selected library: work cell: demo view verilog as top level
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Sep  3 23:03:14 2018
+# Mon Oct  8 02:27:54 2018
 
 ###########################################################]
 @END
@@ -98,7 +96,7 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Sep  3 23:03:14 2018
+# Mon Oct  8 02:27:54 2018
 
 ###########################################################]
 
@@ -118,19 +116,20 @@ Database state : C:\Gowin\gowin-blink\impl\synthesize\rev_1\synwork\|rev_1
 Synopsys Synopsys Netlist Linker, Version comp2018q1p1, Build 118R, Built May 15 2018 09:18:11
 
 @N|Running in 64-bit mode
-File C:\Gowin\gowin-blink\impl\synthesize\rev_1\synwork\fpga_project_comp.srs changed - recompiling
-@N: NF107 :"C:\Gowin\gowin-blink\src\demo.v":4:7:4:10|Selected library: work cell: demo view verilog as top level
-@N: NF107 :"C:\Gowin\gowin-blink\src\demo.v":4:7:4:10|Selected library: work cell: demo view verilog as top level
+@N: NF107 :"C:\Gowin\gowin-blink\src\demo.v":7:7:7:10|Selected library: work cell: demo view verilog as top level
+@N: NF107 :"C:\Gowin\gowin-blink\src\demo.v":7:7:7:10|Selected library: work cell: demo view verilog as top level
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Sep  3 23:03:16 2018
+# Mon Oct  8 02:27:56 2018
 
 ###########################################################]
-# Mon Sep  3 23:03:16 2018
+Premap Report
+
+# Mon Oct  8 02:27:56 2018
 
 
 Copyright (C) 1994-2018 Synopsys, Inc.
@@ -200,7 +199,7 @@ demo|clk_50M                   26        clk_50M(port)           clk_led.C      
 demo|clk_led_derived_clock     4         clk_led.Q[0](dffre)     led[3:0].C      -                 -            
 ================================================================================================================
 
-@W: MT529 :"c:\gowin\gowin-blink\src\demo.v":18:0:18:5|Found inferred clock demo|clk_50M which controls 26 sequential elements including cnt[24:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"c:\gowin\gowin-blink\src\demo.v":21:0:21:5|Found inferred clock demo|clk_50M which controls 26 sequential elements including cnt[24:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
 
 ICG Latch Removal Summary:
 Number of ICG latches removed: 0
@@ -250,10 +249,12 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 103MB peak: 190MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Sep  3 23:03:18 2018
+# Mon Oct  8 02:27:58 2018
 
 ###########################################################]
-# Mon Sep  3 23:03:18 2018
+Map & Optimize Report
+
+# Mon Oct  8 02:27:58 2018
 
 
 Copyright (C) 1994-2018 Synopsys, Inc.
@@ -333,10 +334,10 @@ Finished technology timing optimizations and critical path resynthesis (Real Tim
 
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 190MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 188MB peak: 190MB)
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 190MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 117MB peak: 190MB)
 
 Writing Analyst data base C:\Gowin\gowin-blink\impl\synthesize\rev_1\synwork\fpga_project_m.srm
 
@@ -360,7 +361,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Mon Sep  3 23:03:22 2018
+# Timing Report written on Mon Oct  8 02:28:01 2018
 #
 
 
@@ -687,6 +688,6 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 37MB peak: 190MB)
 
 Process took 0h:00m:03s realtime, 0h:00m:03s cputime
-# Mon Sep  3 23:03:22 2018
+# Mon Oct  8 02:28:02 2018
 
 ###########################################################]

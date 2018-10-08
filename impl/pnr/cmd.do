@@ -6,5 +6,8 @@
 -bit
 -tr
 -ph
+-posp
+-o
 -timing
+-gao C:\Gowin\gowin-blink\src\gao.v
 -gpa

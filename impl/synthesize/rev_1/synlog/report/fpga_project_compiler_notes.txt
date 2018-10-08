@@ -2,8 +2,8 @@
 @N|Running in 64-bit mode
 @N:: Running Verilog Compiler in System Verilog mode
 @N:: Running Verilog Compiler in Multiple File Compilation Unit mode
-@N: CG364 :"C:\Gowin\gowin-blink\src\demo.v":4:7:4:10|Synthesizing module demo in library work.
+@N: CG364 :"C:\Gowin\gowin-blink\src\demo.v":7:7:7:10|Synthesizing module demo in library work.
 @N|Running in 64-bit mode
-@N: NF107 :"C:\Gowin\gowin-blink\src\demo.v":4:7:4:10|Selected library: work cell: demo view verilog as top level
-@N: NF107 :"C:\Gowin\gowin-blink\src\demo.v":4:7:4:10|Selected library: work cell: demo view verilog as top level
+@N: NF107 :"C:\Gowin\gowin-blink\src\demo.v":7:7:7:10|Selected library: work cell: demo view verilog as top level
+@N: NF107 :"C:\Gowin\gowin-blink\src\demo.v":7:7:7:10|Selected library: work cell: demo view verilog as top level
 

@@ -14,24 +14,24 @@ Hostname: BEACONDEV3
 Implementation : rev_1
 Synopsys HDL compiler and linker, Version comp2018q1p1, Build 118R, Built May 15 2018 09:18:11
 
-Modified Files: 1
+Modified Files: 6
 FID:  path (prevtimestamp, timestamp)
-5        C:\Gowin\gowin-blink\src\demo.v (2018-09-03 22:28:09, 2018-09-03 23:02:53)
+0        C:\Gowin\1.8\SynplifyPro\lib\generic\gw1n.v (N/A, 2018-05-16 00:54:32)
+1        C:\Gowin\1.8\SynplifyPro\lib\vlog\hypermods.v (N/A, 2018-05-16 00:08:32)
+2        C:\Gowin\1.8\SynplifyPro\lib\vlog\scemi_objects.v (N/A, 2018-05-16 00:08:32)
+3        C:\Gowin\1.8\SynplifyPro\lib\vlog\scemi_pipes.svh (N/A, 2018-05-16 00:08:32)
+4        C:\Gowin\1.8\SynplifyPro\lib\vlog\umr_capim.v (N/A, 2018-05-16 00:08:32)
+5        C:\Gowin\gowin-blink\src\demo.v (N/A, 2018-10-07 22:44:24)
 
 *******************************************************************
 Modules that may have changed as a result of file changes: 1
 MID:  lib.cell.view
 0        work.demo.verilog may have changed because the following files changed:
-                        C:\Gowin\gowin-blink\src\demo.v (2018-09-03 22:28:09, 2018-09-03 23:02:53) <-- (module definition)
+                        C:\Gowin\gowin-blink\src\demo.v (N/A, 2018-10-07 22:44:24) <-- (module definition)
 
 *******************************************************************
-Unmodified files: 5
+Unmodified files: 0
 FID:  path (timestamp)
-0        C:\Gowin\1.8\SynplifyPro\lib\generic\gw1n.v (2018-05-16 00:54:32)
-1        C:\Gowin\1.8\SynplifyPro\lib\vlog\hypermods.v (2018-05-16 00:08:32)
-2        C:\Gowin\1.8\SynplifyPro\lib\vlog\scemi_objects.v (2018-05-16 00:08:32)
-3        C:\Gowin\1.8\SynplifyPro\lib\vlog\scemi_pipes.svh (2018-05-16 00:08:32)
-4        C:\Gowin\1.8\SynplifyPro\lib\vlog\umr_capim.v (2018-05-16 00:08:32)
 
 *******************************************************************
 Unchanged modules: 0
